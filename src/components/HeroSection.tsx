@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="hero-content fade-in-up">
         
         <h1 className="text-5xl md:text-7xl font-bold mb-4">
-          Hi, I'm <span className="gradient-text">Sai Sri Ram</span> 👋
+          Hi, I'm <span className="gradient-text">Sai Sri Ram</span> 
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-600 mb-6 max-w-3xl mx-auto">
