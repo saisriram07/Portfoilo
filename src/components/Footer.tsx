@@ -2,7 +2,7 @@ import { Heart, Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12 px-4">
+    <footer className="bg-gray-900 text-white py-8 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
@@ -84,9 +84,9 @@ const Footer = () => {
               © {new Date().getFullYear()} Kancharla Sai Sri Ram. All rights reserved.
             </p>
             <div className="flex items-center gap-1 text-gray-300 text-sm">
-              <span>Made with</span>
-              <Heart size={16} className="text-red-500" />
-              <span>using React & Tailwind CSS</span>
+              {/* <span>Made with</span> */}
+              {/* <Heart size={16} className="text-red-500" /> */}
+              {/* <span>using React & Tailwind CSS</span> */}
             </div>
           </div>
         </div>
